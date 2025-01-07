@@ -59,7 +59,7 @@ function RewardsPage() {
                 <footer>
                     <div>
                         <img id='reward-img'
-                            onMouseOver={() => {
+                            onClick={() => {
                                 var reward = document.getElementById('reward-img')
                                 reward.src = '/src/assets/trophy.png'
                                 onmouseleave(() => {
