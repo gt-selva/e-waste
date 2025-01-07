@@ -1,0 +1,109 @@
+#rewards-page{
+    display: none;
+}
+#nav h1{
+    display: flex;
+    justify-content: center;
+}
+#gift-content{
+    display: flex;
+    justify-content: center;
+     
+ }
+ #gift-content-1{
+     border: 1px solid rgb(30, 94, 74);
+     border-radius: 10px;
+     padding: 10px;
+     width: 20%;
+     margin: 10px;
+ }
+ #gift-content-1 h1{
+    font-weight: 900 ;
+ }
+ #gift-content-1 p{
+    color: rgb(79, 141, 119);
+ }
+#button{
+    display: flex;
+    justify-content: center;
+}
+#button button{
+    width: 690px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(103, 236, 154);
+    font-size: 15px;
+    font-weight: 700;
+    margin:20px 0px;
+}
+#gift-card-detail{
+    display: flex;
+    justify-content: center;
+}
+#offer{
+    display: flex;
+    justify-content: center;
+}
+#gift-card-detail div{
+    margin: 20px 20px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+    position: relative;
+    top: 100px;
+    width: 50%;
+    margin-left: 25%;
+    
+   
+}
+footer p{
+    width: 100%;
+}
+footer img{
+    margin-left: 10px;
+}
+@media screen and (max-width:450px) {
+    #gift-content{
+        display: flex;
+        justify-content: space-between;
+         
+     }
+     #gift-content-1{
+         border: 1px solid black;
+         width: 100%;
+         margin: 20px;
+     }
+     #gift-content-1 p{
+        text-align: start;
+        }
+        #button button{
+            width: 90%;
+            
+        }
+        #gift-card-detail img{
+            border-radius: 10px;
+        }
+        #gift-card-detail{
+            justify-content: center;
+            margin:50px  2%;
+        }
+        #gift-card-detail img{
+            width: 90%!important;
+        }
+        #gift-card-detail div{
+            margin:0px;
+        }
+        #offer{
+            justify-content: start;
+        }
+        footer{
+            justify-content: space-between;
+            top: 60px;
+            width: 80%;
+            margin-left: 10%;
+        }
+
+}
