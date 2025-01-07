@@ -14,7 +14,7 @@ function LoginPage() {
                 </div>
                 <div id='login-content'>
                     <div>
-                        <h1>Rearn Rewards For e-waste recycling</h1>
+                        <h1>Earn Rewards For e-waste recycling</h1>
                     </div>
                     <div>
                         <p>Get paid to recycle your used electronics.it's free and easy to start</p>

@@ -63,7 +63,7 @@ function RewardsPage() {
                                 var reward = document.getElementById('reward-img')
                                 reward.src = '/src/assets/trophy.png'
                                 onmouseleave(() => {
-                                    reward.src = ' /src/assets/trophy%202.png'
+                                    reward.src = ' /src/assets/trophy 2.png'
                                 })
                             }}
                             src={Rewards2} width='30px' alt="" />
